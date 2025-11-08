@@ -1,0 +1,160 @@
+{
+  "companies": [
+    {
+      "_id": "68b4d87f2803f200b405c52e",
+      "name": "Nike",
+      "createdAt": "2025-08-31T23:19:27.536Z",
+      "__v": 0
+    },
+    {
+      "_id": "68c0b2462471d2ed7e9acc94",
+      "name": "adidas",
+      "createdAt": "2025-09-09T23:03:34.046Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f017dc118c2e1cae433e83",
+      "name": "Under Armour",
+      "createdAt": "2025-10-15T21:53:32.876Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f01e04118c2e1cae433ea0",
+      "name": "Rebook",
+      "createdAt": "2025-10-15T22:19:48.239Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f02448d93d0a7e0ee83513",
+      "name": "Joola",
+      "createdAt": "2025-10-15T22:46:32.516Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f0c7fe2358e9901292bb07",
+      "name": "Aslam Javed",
+      "createdAt": "2025-10-16T10:25:02.029Z",
+      "__v": 0
+    }
+  ],
+  "products": [
+    {
+      "_id": "68c0b37a2471d2ed7e9acc96",
+      "company": "68c0b2462471d2ed7e9acc94",
+      "name": "Adidas Ultra Bounce",
+      "type": "Running Shoes",
+      "color": "White",
+      "size": 42,
+      "quantity": 25,
+      "sold": 5,
+      "costPricePerBox": 800,
+      "salePricePerBox": 1000,
+      "manufactureDate": "2025-08-01T00:00:00.000Z",
+      "createdAt": "2025-09-09T23:08:42.892Z",
+      "__v": 0,
+      "companyId": "68c0b2462471d2ed7e9acc94"
+    },
+    {
+      "_id": "68d3bb313d040203ca83fe52",
+      "company": "68c0b2462471d2ed7e9acc94",
+      "name": "Adidas Ultra Boost",
+      "type": "Running Shoes",
+      "color": "White",
+      "size": 42,
+      "quantity": 15,
+      "sold": 15,
+      "costPricePerBox": 800,
+      "salePricePerBox": 1000,
+      "manufactureDate": "2025-09-24T00:00:00.000Z",
+      "createdAt": "2025-09-24T09:34:41.384Z",
+      "__v": 0,
+      "companyId": "68c0b2462471d2ed7e9acc94"
+    },
+    {
+      "_id": "68d3bbe33d040203ca83fe54",
+      "company": "68c0b2462471d2ed7e9acc94",
+      "name": "Adidas Ultra Boost",
+      "type": "Running Shoes",
+      "color": "White",
+      "size": 42,
+      "quantity": 20,
+      "sold": 0,
+      "costPricePerBox": 800,
+      "salePricePerBox": 1000,
+      "manufactureDate": "2025-09-24T00:00:00.000Z",
+      "createdAt": "2025-09-24T09:37:39.545Z",
+      "__v": 0,
+      "companyId": "68c0b2462471d2ed7e9acc94"
+    },
+    {
+      "_id": "68f01945118c2e1cae433e85",
+      "company": "68f017dc118c2e1cae433e83",
+      "name": "UA Runners",
+      "type": "Running Shoes",
+      "color": "Blue And Green",
+      "size": 44,
+      "quantity": 900,
+      "sold": 100,
+      "costPricePerBox": 1000,
+      "salePricePerBox": 1600,
+      "manufactureDate": "2025-10-10T00:00:00.000Z",
+      "createdAt": "2025-10-15T21:59:33.409Z",
+      "__v": 0,
+      "companyId": "68f017dc118c2e1cae433e83"
+    },
+    {
+      "_id": "68f2a8369f43270314713575",
+      "company": "68b4d87f2803f200b405c52e",
+      "name": "Air jorden",
+      "type": "Sneakers",
+      "color": "Red",
+      "size": 44,
+      "quantity": 10,
+      "sold": 0,
+      "costPricePerBox": 1000,
+      "salePricePerBox": 2000,
+      "manufactureDate": "2025-10-17T00:00:00.000Z",
+      "createdAt": "2025-10-17T20:33:58.372Z",
+      "__v": 0
+    }
+  ],
+  "sales": [
+    {
+      "_id": "68f189803c1fb82d9f36edd5",
+      "product": "68d3bb313d040203ca83fe52",
+      "company": "68c0b2462471d2ed7e9acc94",
+      "boxesSold": 10,
+      "salePricePerBox": 1000,
+      "totalPrice": 10000,
+      "saleDate": "2025-10-15T00:00:00.000Z",
+      "customerName": "Muneeb Atta",
+      "createdAt": "2025-10-17T00:10:40.360Z",
+      "updatedAt": "2025-10-17T00:10:40.360Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f220422e081920879fc4eb",
+      "product": "68d3bb313d040203ca83fe52",
+      "company": "68c0b2462471d2ed7e9acc94",
+      "boxesSold": 5,
+      "salePricePerBox": 1000,
+      "totalPrice": 5000,
+      "saleDate": "2025-10-15T00:00:00.000Z",
+      "customerName": "muzammil yaseen",
+      "createdAt": "2025-10-17T10:53:54.153Z",
+      "updatedAt": "2025-10-17T10:53:54.153Z",
+      "__v": 0
+    }
+  ],
+  "users": [
+    {
+      "_id": "68a6323c54bc698434320f1a",
+      "firstName": "Sameed",
+      "lastName": "Atta",
+      "email": "its_sameedatta_khan@outlook.com",
+      "password": "Nothinghuh",
+      "__v": 0
+    }
+  ],
+  "shoes": []
+}
