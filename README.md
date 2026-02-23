@@ -42,3 +42,16 @@ npm run dev
 cd frontend  
 npm install  
 npm run dev  
+
+---
+
+## Screenshots
+
+### Dashboard
+![Dashboard](images/dashboard.png)
+
+### Inventory
+![Inventory](images/inventory.png)
+
+### Sales Records
+![Sales](images/sales.png)
