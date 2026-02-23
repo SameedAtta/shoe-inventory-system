@@ -1,0 +1,20 @@
+# dependencies
+**/node_modules
+
+# env files
+**/.env
+
+# build outputs
+**/dist
+**/build
+
+# logs
+**/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# sensitive files
+**/token.json
+**/credentials.json
