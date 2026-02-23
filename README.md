@@ -23,3 +23,22 @@ server/ → Backend API and database logic
 
 ## Purpose
 Built as a full-stack business application to demonstrate real-world MERN architecture and dashboard development.
+
+---
+
+## Folder Structure
+
+- frontend/ -> React (Vite) client
+- backend/  -> Node.js + Express API
+
+## Run Locally
+
+### Backend
+cd backend  
+npm install  
+npm run dev  
+
+### Frontend
+cd frontend  
+npm install  
+npm run dev  
